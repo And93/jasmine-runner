@@ -1,0 +1,12 @@
+{
+  "name": "jasmine-runner",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jasmine --config=src/support/jasmine.json"
+  },
+  "dependencies": {
+    "jasmine": "3.5.0",
+    "jasmine-reporters": "2.3.2",
+    "jasmine-spec-reporter": "4.2.1"
+  }
+}
