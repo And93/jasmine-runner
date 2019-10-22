@@ -21,3 +21,4 @@ const jUnitXmlReporter = new JUnitXmlReporter({
 
 jasmine.getEnv().addReporter(specReporter);
 jasmine.getEnv().addReporter(jUnitXmlReporter);
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 120000;
