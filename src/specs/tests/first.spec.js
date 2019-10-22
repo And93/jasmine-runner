@@ -3,7 +3,7 @@ describe('First Spec', function () {
         console.log('first');
     });
 
-    fit('should be first-second', function () {
+    it('should be first-second', function () {
         console.log('first-second');
     });
 });
